@@ -1,0 +1,14 @@
+## About Test
+- Create Laravel Auth: ability to log in as administrator ( username and password , not email )
+- Use database seeds to create first user with username "admin_user" and password “password”
+- Writing Artisan Commands that can create new administrator user.
+- Use AdminLTE theme.
+- Clients DB table consists of these fields: Name (required), email, phone,address, photo.
+- Billing DB table consists of these fields: Amount (required), Due Date (required), Client (foreign key to Client), description
+- Use database migrations to create those schemas above
+- CRUD functionality (Create / Read / Update / Delete - can be restored) for two menu items: Clients and Billing.
+- Store clients photo in storage/app/public folder and make them accessible from public
+- Use custom request classes for validation function.
+- Use Laravel’s pagination for showing Clients/Billings list, 10 entries per page
+- Use Event method to create custom Log file for CRUD and save log file in storage/logs/crud.log.
+- Generate Fake data and seed to database:  Clients and Billing . ( at least 20 rows )
